@@ -10,13 +10,13 @@ Libraries(dependencies) used
 5. argparse
 6. scene detect
 
-How to install those libraries
-pip install os
-pip install opencv-python
-pip install mediapipe
-pip install numpy
-pip install argparse
-pip install scenedetect
+How to install those libraries, 
+pip install os, 
+pip install opencv-python, 
+pip install mediapipe, 
+pip install numpy, 
+pip install argparse, 
+pip install scenedetect, 
 
 
 ############ HOW TO RUN knee_bend.py ##############
