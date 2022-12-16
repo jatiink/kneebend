@@ -1,25 +1,20 @@
 # kneebend
-Kneedbend with timer and video cleaner
-############ INSTRUCTIONS ##############
+Kneedbend with timer and video cleaner.<br />
+In This Project, I will remove fluctuating frames from the video first and then finds the angle of the knee if the angle is less than 140° then the timer will begin and if the timer goes 8 seconds and above then add Single rep to Reps count.
 
-Libraries(dependencies) used
-1. os
-2. cv2
-3. mediapipe
-4. numpy
-5. argparse
-6. scene detect
+## INSTRUCTIONS
+### This project requires the following libraries<br />
 
-How to install those libraries, 
-pip install os, 
-pip install opencv-python, 
-pip install mediapipe, 
-pip install numpy, 
-pip install argparse, 
-pip install scenedetect, 
+• [Os](https://python.readthedocs.io/en/stable/library/os.html)<br />
+• [Cv2(OpenCV)](https://docs.opencv.org/4.x/)<br />
+• [Mediapipe](https://google.github.io/mediapipe/)<br />
+• [Numpy](https://numpy.org/)<br />
+• [scene detect](http://scenedetect.com/en/latest/)<br />
+
+### Please ensure you have installed the following libraries mentioned above before continuing.
 
 
-############ HOW TO RUN knee_bend.py ##############
+## HOW TO RUN knee_bend.py
 
 open cmd in the file directory and write:
 python knee_bend.py --video "path"
