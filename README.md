@@ -17,10 +17,13 @@ In This Project, I will remove fluctuating frames from the video first and then 
 ## HOW TO RUN knee_bend.py
 
 open cmd in the file directory and write:
+```
 python knee_bend.py --video "path"
-
-for eg: python knee_bend.py --video "C://user//jatin//downloads//kneebend.mp4"
-
+```
+for eg:
+```
+python knee_bend.py --video "C://user//downloads//kneebend.mp4"
+```
 You will get stats_of_bendness.txt in the same directory where the knee_bend.py file is saved
 and kneebend_output.mp4 will also be saved in the same directory.
 
